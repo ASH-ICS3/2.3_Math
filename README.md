@@ -1,8 +1,8 @@
-ICS3 - Mr. J 🐠
+
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16534421)
 # 2.3 - Mathematics
 
-##### ICS3 - Mr. Brash 🐿️
+##### ICS3 - Mr. J 🐠
 
 **If you missed the live demonstration in class, read below. Otherwise you can go straight to [your task](./YOUR_TASK.md).**
 
@@ -73,4 +73,4 @@ console.log(`The hypotenuse of a triangle with sides ${a} and ${b} is ${c}`)
 
 <br>
 <br>
-🐿️
+🐠
