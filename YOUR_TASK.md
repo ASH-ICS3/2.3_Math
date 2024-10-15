@@ -1,77 +1,53 @@
-### Your Task
-###### ICS3 - Mr. J 🐠
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16534421)
-# 2.3 - Mathematics
+### 2.3 - Mathematics
 
-##### ICS3 - Mr. Brash 🐿️
+##### ICS3 - Mr. J 🐠
 
-**If you missed the live demonstration in class, read below. Otherwise you can go straight to [your task](./YOUR_TASK.md).**
+# 📝 Your Task:
 
-- Want to [watch a video](https://youtu.be/adReYfUPPoQ) instead?
+We are going to ask the computer to convert temperatures.
 
-### Mathematics in Code
-The _symbols_ we use to do math are called **operators**.<br>
-The list of _operators_ [is available here](https://www.w3schools.com/js/js_operators.asp).
-The list of _assignment operators_ [is available here](https://www.w3schools.com/js/js_assignment.asp).
+The equation to convert Fahrenheit to Celsius is:
+> C = (F - 32) * 5/9
 
-```JS
-// Add, subtract, etc...
-let x = 1;
-x = x + 5;
-x = 7 - 2;
-x = x * 3;
-x = 24 / 8;
+In the above equation, we _know_ the Fahrenheit value `F` and use it to create and store the new Celsius value into `C`.
 
-// Exponent
-let four_squared = 4**2;
-let six_cubed = 6**3;
+The equation to convert in the _opposite_ direction is:
+> F = (C * 9/5) + 32
 
-// Math Shortcuts
-x = x + 3;
-x += 3;   // Add 3 to x's current value
+#### We will use the code file [main.js](./main.js) and printing to the console to see our answers
 
-x = x - 2;
-x -= 2;   // Reduce x's value by 2
+**Part 1: Convert Celsius to Fahrenheit**
+  1. Declare a variable and call it `celsius`, setting `celsius` to 100.
+  2. Declare _another_ variable and call it `fahrenheit` - setting this variable to 0.
+  3. Let's add 2 to `celsius`, just to practice that skill.
+  4. Using the correct equation (above) and the value of the variable `celsius`, convert that temperature to degrees Fahrenheit and store the answer in your `fahrenheit` variable. This will overwrite the value of 0 you set in step 2.
+  5. Output the value of `fahrenheit` to the console. Just the number.
 
-x *= 4;   // Multiply 4 into the value of x
-x /= 2;   // Divide x by 2 and store it back in x
+**Part 2: Convert Fahrenheit to Celsius**
+  This task will reuse the variables from Part 1 - *no* new `let` statements required.
+  1. Now set `fahrenheit` to 77 
+  2. Using the correct equation, convert from this Fahrenheit value to Celsius, and store the answer in the `celsius` variable.
+  3. Output the current value of `celsius` to the console. Just the number.
+  
+**Part 3: Now for some text:**
+  Printing just the numbers is boring. Let's try that output again (on a new line) but with some pizzazz!
+  - Using the variables `fahrenheit` and `celsius` create an output that looks like this:  `{value} degrees Fahrenheit is {value} degrees celsius.` where {value} gets replaced by the appropriate numbers from your variables.
 
-// Incrementation (increase or decrease the variable by 1)
-x++;
-x--;
+**Part 4: Slope**
+  1. Slope of a line is defined as `m = (y2 - y1)/(x2 - x1)`. Define a variable `m` and compute the slope from point A(-4, 5) to point B(6, 0), and store it into `m`.
+  2. Print the value of `m` to the console.
 
-/* Anything in "quotes" is text (called a String)
- * We can combine (concatenate) strings */
-let first = "Mr.";
-let last = "Brash";
-let myName = first + " " + last;      // The simple way
-
-// It is NOT possible to subtract strings
-myName = myName - "B";  // Not possible
-```
-
-### The Math Object
-JavaScript has a special [Math object](https://www.w3schools.com/js/js_math.asp) for doing complicated stuff.
-- `Math.random()`  // Get a random decimal number bettwen 0 and 1
-- `Math.round()`   // Round to the nearest whole value
-- `Math.sqrt()`    // Take the square root of the number
-
-### Examples:
-```JS
-// Calculate the area of a circle with radius of 3
-let r = 3;
-let area_circle = Math.PI * r**2;
-```
-```JS
-// Calculate pythagorean theorem
-let a = 8;
-let b = 4;
-let c = Math.sqrt(a**2 + b**2);
-console.log(`The hypotenuse of a triangle with sides ${a} and ${b} is ${c}`)
-```
-
-**Now go check out [your task](./YOUR_TASK.md).**
+**Part 5: The Math object**
+  Lets use the [Math object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) a little to create a random volume of a cylinder. Reminder:  V = π r² h
+  1. Create a random radius between 0 and 10
+  2. Create a random height between 0 and 10
+  3. Use `Math.PI` and `Math.round()` to calculate the volume of this cylinder.
+  4. Output the volume of the cylinder as: `The volume of my random cylinder is {value}`
 
 <br>
+
+---
+
 <br>
-🐿️
+
+🕒 If you finish with class time left, you can do independent learning.
